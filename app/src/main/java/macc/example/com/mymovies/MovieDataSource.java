@@ -26,7 +26,7 @@ public class MovieDataSource {
             @Override
             public void run() {
                 for(int i=0;i<100;i++){
-                    for (int j=0;j<10000000;j++);
+                    for (int j=0;j<1000000;j++);
                     Movie movie = new Movie("Il Signore degli Anelli",""+i,"2000",i);//String title, String description, String releaseDate, int rating
                     movies.add(movie);
                     Log.i("INFO",""+i);
