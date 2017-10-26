@@ -20,7 +20,7 @@ public class swipeToDismiss {
             @Override
             public void onSwiped(RecyclerView.ViewHolder viewHolder, int direction) {
                 movieAdapter.notifyItemRemoved(viewHolder.getAdapterPosition());
-                //Remove item from the DataSource
+                //to do Remove item from the DataSource
             }
         };
     };
